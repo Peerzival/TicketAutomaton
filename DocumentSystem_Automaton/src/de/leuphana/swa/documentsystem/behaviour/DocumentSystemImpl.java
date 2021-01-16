@@ -32,6 +32,10 @@ public class DocumentSystemImpl implements DocumentCommandService, ManageableEve
 		documents = new HashMap<Integer, Document>();
 		logger = LogManager.getLogger(this.getClass());
 	}
+	
+	public void Test() {
+		
+	}
 
 	@Override
 	public Boolean addDocument(Document document) {
