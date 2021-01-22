@@ -5,9 +5,10 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
-import de.leuphana.swa.messagingsystem.behaviour.service.MessagingCommandService;
-import de.leuphana.swa.messagingsystem.behaviour.service.Sendable;
-import de.leuphana.swa.messagingsystem.structure.MessageType;
+import de.leuphana.cosa.messagingsystem.behaviour.MessagingSystemImpl;
+import de.leuphana.cosa.messagingsystem.behaviour.service.MessagingCommandService;
+import de.leuphana.cosa.messagingsystem.behaviour.service.Sendable;
+import de.leuphana.cosa.messagingsystem.structure.MessageType;
 
 class MessagingSystemTest {
 

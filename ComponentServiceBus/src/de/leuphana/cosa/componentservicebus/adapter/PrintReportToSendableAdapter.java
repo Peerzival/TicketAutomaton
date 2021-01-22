@@ -1,12 +1,12 @@
 package de.leuphana.cosa.componentservicebus.adapter;
 
-import de.leuphana.swa.messagingsystem.behaviour.service.MessagingCommandService;
-import de.leuphana.swa.messagingsystem.behaviour.service.Sendable;
-import de.leuphana.swa.messagingsystem.structure.MessageType;
-import de.leuphana.swa.printingsystem.behaviour.service.PrintReport;
-import de.leuphana.swa.printingsystem.behaviour.service.event.PrintableEvent;
-import de.leuphana.swa.printingsystem.behaviour.service.event.PrintableEventListener;
-import de.leuphana.swa.printingsystem.behaviour.service.event.PrintableEventService;
+import de.leuphana.cosa.messagingsystem.behaviour.service.MessagingCommandService;
+import de.leuphana.cosa.messagingsystem.behaviour.service.Sendable;
+import de.leuphana.cosa.messagingsystem.structure.MessageType;
+import de.leuphana.cosa.printingsystem.behaviour.service.PrintReport;
+import de.leuphana.cosa.printingsystem.behaviour.service.event.PrintableEvent;
+import de.leuphana.cosa.printingsystem.behaviour.service.event.PrintableEventListener;
+import de.leuphana.cosa.printingsystem.behaviour.service.event.PrintableEventService;
 
 public class PrintReportToSendableAdapter implements PrintableEventListener {
 

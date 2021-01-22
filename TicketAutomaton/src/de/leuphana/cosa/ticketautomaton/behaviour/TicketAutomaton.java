@@ -2,12 +2,12 @@ package de.leuphana.cosa.ticketautomaton.behaviour;
 
 import de.leuphana.cosa.component.Component;
 import de.leuphana.cosa.componentservicebus.ComponentServiceBus;
-import de.leuphana.swa.documentsystem.behaviour.DocumentSystemImpl;
-import de.leuphana.swa.documentsystem.behaviour.service.DocumentCommandService;
-import de.leuphana.swa.messagingsystem.behaviour.MessagingSystemImpl;
-import de.leuphana.swa.messagingsystem.behaviour.service.MessagingCommandService;
-import de.leuphana.swa.printingsystem.behaviour.PrintingSystemImpl;
-import de.leuphana.swa.printingsystem.behaviour.service.PrintingCommandService;
+import de.leuphana.cosa.documentsystem.behaviour.DocumentSystemImpl;
+import de.leuphana.cosa.documentsystem.behaviour.service.DocumentCommandService;
+import de.leuphana.cosa.messagingsystem.behaviour.MessagingSystemImpl;
+import de.leuphana.cosa.messagingsystem.behaviour.service.MessagingCommandService;
+import de.leuphana.cosa.printingsystem.behaviour.PrintingSystemImpl;
+import de.leuphana.cosa.printingsystem.behaviour.service.PrintingCommandService;
 
 public class TicketAutomaton {
 	// Components

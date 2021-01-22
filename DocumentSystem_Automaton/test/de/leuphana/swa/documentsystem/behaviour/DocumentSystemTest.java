@@ -5,8 +5,9 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
-import de.leuphana.swa.documentsystem.behaviour.service.DocumentCommandService;
-import de.leuphana.swa.documentsystem.structure.Document;
+import de.leuphana.cosa.documentsystem.behaviour.DocumentSystemImpl;
+import de.leuphana.cosa.documentsystem.behaviour.service.DocumentCommandService;
+import de.leuphana.cosa.documentsystem.structure.Document;
 
 class DocumentSystemTest {
 

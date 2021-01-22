@@ -1,12 +1,12 @@
 package de.leuphana.cosa.componentservicebus.adapter;
 
-import de.leuphana.swa.documentsystem.behaviour.service.Manageable;
-import de.leuphana.swa.documentsystem.behaviour.service.event.ManageableEvent;
-import de.leuphana.swa.documentsystem.behaviour.service.event.ManageableEventListener;
-import de.leuphana.swa.documentsystem.behaviour.service.event.ManageableEventService;
-import de.leuphana.swa.printingsystem.behaviour.service.PrintConfiguration;
-import de.leuphana.swa.printingsystem.behaviour.service.Printable;
-import de.leuphana.swa.printingsystem.behaviour.service.PrintingCommandService;
+import de.leuphana.cosa.documentsystem.behaviour.service.Manageable;
+import de.leuphana.cosa.documentsystem.behaviour.service.event.ManageableEvent;
+import de.leuphana.cosa.documentsystem.behaviour.service.event.ManageableEventListener;
+import de.leuphana.cosa.documentsystem.behaviour.service.event.ManageableEventService;
+import de.leuphana.cosa.printingsystem.behaviour.service.PrintConfiguration;
+import de.leuphana.cosa.printingsystem.behaviour.service.Printable;
+import de.leuphana.cosa.printingsystem.behaviour.service.PrintingCommandService;
 
 public class ManageableToPrintableAdapter implements ManageableEventListener {
 	

@@ -7,9 +7,10 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
-import de.leuphana.swa.printingsystem.behaviour.service.PrintConfiguration;
-import de.leuphana.swa.printingsystem.behaviour.service.Printable;
-import de.leuphana.swa.printingsystem.behaviour.service.PrintingCommandService;
+import de.leuphana.cosa.printingsystem.behaviour.PrintingSystemImpl;
+import de.leuphana.cosa.printingsystem.behaviour.service.PrintConfiguration;
+import de.leuphana.cosa.printingsystem.behaviour.service.Printable;
+import de.leuphana.cosa.printingsystem.behaviour.service.PrintingCommandService;
 
 class PrintingSystemTest {
 
