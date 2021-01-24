@@ -15,6 +15,7 @@ public class RouteSystemImpl {
 
 	private Set<Route> routes;
 	private Logger logger;
+	private Route route;
 
 	public RouteSystemImpl() {
 		routes = new HashSet<Route>();
